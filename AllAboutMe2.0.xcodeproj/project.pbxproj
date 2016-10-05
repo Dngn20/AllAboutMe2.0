@@ -13,6 +13,8 @@
 		9C7E7BB51DA2E0990080C348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C7E7BB41DA2E0990080C348 /* Assets.xcassets */; };
 		9C7E7BB81DA2E0990080C348 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C7E7BB61DA2E0990080C348 /* LaunchScreen.storyboard */; };
 		9C7E7BC01DA2E36C0080C348 /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7E7BBF1DA2E36C0080C348 /* IndexViewController.swift */; };
+		9CB788201DA5746F00FF8077 /* CarrerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB7881F1DA5746F00FF8077 /* CarrerViewController.swift */; };
+		9CB788221DA5794F00FF8077 /* FamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB788211DA5794F00FF8077 /* FamilyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9C7E7BB71DA2E0990080C348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C7E7BB91DA2E0990080C348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C7E7BBF1DA2E36C0080C348 /* IndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
+		9CB7881F1DA5746F00FF8077 /* CarrerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarrerViewController.swift; sourceTree = "<group>"; };
+		9CB788211DA5794F00FF8077 /* FamilyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamilyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				9C7E7BB41DA2E0990080C348 /* Assets.xcassets */,
 				9C7E7BB61DA2E0990080C348 /* LaunchScreen.storyboard */,
 				9C7E7BB91DA2E0990080C348 /* Info.plist */,
+				9CB7881F1DA5746F00FF8077 /* CarrerViewController.swift */,
+				9CB788211DA5794F00FF8077 /* FamilyViewController.swift */,
 			);
 			path = AllAboutMe2.0;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 				9C7E7BB01DA2E0990080C348 /* ViewController.swift in Sources */,
 				9C7E7BAE1DA2E0990080C348 /* AppDelegate.swift in Sources */,
 				9C7E7BC01DA2E36C0080C348 /* IndexViewController.swift in Sources */,
+				9CB788201DA5746F00FF8077 /* CarrerViewController.swift in Sources */,
+				9CB788221DA5794F00FF8077 /* FamilyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +298,7 @@
 				9C7E7BBE1DA2E0990080C348 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
