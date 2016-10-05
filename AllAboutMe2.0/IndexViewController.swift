@@ -17,4 +17,20 @@ class IndexViewController : UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+    @IBAction func toPastFromIndex(sender: UIButton)
+    {
+        performSegueWithIdentifier("toPastFromIndex", sender: sender)
+    }
+    @IBAction func toCareerFromIndex(sender: UIButton)
+    {
+        performSegueWithIdentifier("toCareerFromIndex", sender: sender)
+    }
+    @IBAction func toHobbiesFromIndex(sender: UIButton)
+    {
+        performSegueWithIdentifier("toHobbiesFromIndex", sender: sender)
+    }
+    @IBAction func toFamilyFromIndex(sender: UIButton)
+    {
+        performSegueWithIdentifier("toHobbiesFromIndex", sender: sender)
+    }
 }

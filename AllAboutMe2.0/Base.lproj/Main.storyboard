@@ -17,33 +17,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="asj-EG-S3u">
-                                <rect key="frame" x="250" y="273" width="84" height="54"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="84" id="ZH4-ro-nYH"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <state key="normal" title="Index">
-                                    <color key="titleColor" red="0.098039217293262482" green="0.098039217293262482" blue="0.098039217293262482" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="toIndexFromHome:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XMc-gn-Zss"/>
-                                    <segue destination="QsU-It-SHi" kind="show" identifier="toIndexFromHome" id="VB8-4n-keY"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="All About Me App by Duncan Nguyen " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wUN-Dg-xJE">
                                 <rect key="frame" x="123" y="51" width="437" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mV9-Jq-S2s">
+                                <rect key="frame" x="255" y="371" width="90" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <state key="normal" title="Index"/>
+                                <connections>
+                                    <segue destination="QsU-It-SHi" kind="show" identifier="toIndexFromHome" id="0Wp-ZU-af1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.38947746849999998" green="1" blue="0.26111306909999998" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1024" y="-937"/>
+            <point key="canvasLocation" x="1024" y="-935"/>
         </scene>
         <!--Career View Controller-->
         <scene sceneID="Y9B-KX-Owe">
@@ -73,13 +67,21 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ziW-Ei-Txg">
                                 <rect key="frame" x="180" y="139" width="240" height="128"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tf9-3f-srh">
+                                <rect key="frame" x="267" y="522" width="66" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="toHomeFromCareer" id="5r5-Yz-zij"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MEr-Fd-Xlx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="282" y="685"/>
+            <point key="canvasLocation" x="340" y="685"/>
         </scene>
         <!--Family View Controller-->
         <scene sceneID="Qul-O3-XbH">
@@ -109,13 +111,20 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jjg-xc-SJZ">
                                 <rect key="frame" x="180" y="178" width="240" height="128"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3d-Up-8mV">
+                                <rect key="frame" x="264" y="550" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="DWi-he-Px0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uve-vD-mdg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="684" y="1506"/>
+            <point key="canvasLocation" x="697" y="1506"/>
         </scene>
         <!--Index View Controller-->
         <scene sceneID="Xxd-mg-k27">
@@ -134,7 +143,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Past"/>
                                 <connections>
-                                    <segue destination="fNH-qg-eGk" kind="show" id="2fD-aW-Kfp"/>
+                                    <action selector="toPastFromIndex:" destination="QsU-It-SHi" eventType="touchUpInside" id="R7M-KY-u3k"/>
+                                    <segue destination="fNH-qg-eGk" kind="show" identifier="toPastFromIndex" id="2fD-aW-Kfp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sML-CD-5Zz">
@@ -142,7 +152,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Career"/>
                                 <connections>
-                                    <segue destination="GHm-yC-ovP" kind="show" id="LyF-gp-P6M"/>
+                                    <action selector="toCareerFromIndex:" destination="QsU-It-SHi" eventType="touchUpInside" id="DYz-fd-Mmk"/>
+                                    <segue destination="GHm-yC-ovP" kind="show" identifier="toCareerFromIndex" id="LyF-gp-P6M"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Index " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ASl-cz-cBM">
@@ -156,7 +167,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Hobbies"/>
                                 <connections>
-                                    <segue destination="XNv-F7-VNT" kind="show" id="jKs-zp-cQ0"/>
+                                    <action selector="toHobbiesFromIndex:" destination="QsU-It-SHi" eventType="touchUpInside" id="xLi-PM-iR7"/>
+                                    <segue destination="XNv-F7-VNT" kind="show" identifier="toHobbiesFromIndex" id="jKs-zp-cQ0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ede-qi-KPm">
@@ -164,7 +176,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Family"/>
                                 <connections>
-                                    <segue destination="1cA-7J-pAl" kind="show" id="Z0R-1R-iLK"/>
+                                    <action selector="toFamilyFromIndex:" destination="QsU-It-SHi" eventType="touchUpInside" id="Wu2-nc-9sR"/>
+                                    <segue destination="1cA-7J-pAl" kind="show" identifier="toFamilyFromIndex" id="Z0R-1R-iLK"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -175,10 +188,10 @@
             </objects>
             <point key="canvasLocation" x="1024" y="-101"/>
         </scene>
-        <!--View Controller-->
+        <!--Past View Controller-->
         <scene sceneID="HZl-1V-EbJ">
             <objects>
-                <viewController id="fNH-qg-eGk" sceneMemberID="viewController">
+                <viewController id="fNH-qg-eGk" customClass="PastViewController" customModule="AllAboutMe2_0" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hDc-gz-WG6"/>
                         <viewControllerLayoutGuide type="bottom" id="dfP-Ab-Bhs"/>
@@ -203,18 +216,32 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EPv-jI-g7I">
                                 <rect key="frame" x="192" y="158" width="240" height="128"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eNF-kg-Q8M">
+                                <rect key="frame" x="257" y="550" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lFT-lZ-Oyk">
+                                <rect key="frame" x="289" y="541" width="47" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.098039217293262482" green="0.098039217293262482" blue="0.098039217293262482" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="c8a-by-Z8c"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rgz-Cg-Bvo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1674" y="685"/>
+            <point key="canvasLocation" x="1667" y="685"/>
         </scene>
-        <!--View Controller-->
+        <!--Hobbies View Controller-->
         <scene sceneID="8C3-0c-Zgm">
             <objects>
-                <viewController id="XNv-F7-VNT" sceneMemberID="viewController">
+                <viewController id="XNv-F7-VNT" customClass="HobbiesViewController" customModule="AllAboutMe2_0" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ea1-wl-2vd"/>
                         <viewControllerLayoutGuide type="bottom" id="HlX-mJ-ecc"/>
@@ -233,6 +260,13 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="umB-vv-Kjt">
                                 <rect key="frame" x="180" y="190" width="240" height="128"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fvJ-gT-v1A">
+                                <rect key="frame" x="250" y="542" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="toHomeFromHobbies" id="HoZ-tO-lax"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hobbies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fjR-TD-peI">
                                 <rect key="frame" x="250" y="28" width="100" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -245,7 +279,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dZW-Wv-HKe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1380" y="1506"/>
+            <point key="canvasLocation" x="1422" y="1506"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="HoZ-tO-lax"/>
+    </inferredMetricsTieBreakers>
 </document>
